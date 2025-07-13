@@ -85,8 +85,3 @@ Pull requests are welcome! If you'd like to enhance the UI, add animations, or i
 
 
 
----
-
-## 📜 License
-
-This project is open source and free to use under the [MIT License](LICENSE).
