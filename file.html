@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MetricBaaz</title>
+	<link rel="stylesheet" href="file.css">
+</head>
+<body>
+	<div class="container">
+		<h1>MetricBaaz</h1>
+
+		<!-- USER INPUT -->
+		<div class="user-container">
+			<p>Enter the user name to track: </p>
+			<div class="user-input-container">
+				<input type="text" label="user_name" placeholder="LeetCode User Name" aria-label="lc" id="user-input">
+				<button type="submit" name="Search" value="Search" id="search-btn">Search User</button>
+			</div>
+		</div>
+
+		<!-- STATS DISPLAY -->
+		<div class="stats-container" style="display:none">
+			<div class="progress">
+				<!-- EASY -->
+				<div class="progress-item">
+					<div class="easy-progress circle">
+						<div class="circle-text">
+							<span id="easy-level">0/0</span>
+							<p class="circle-difficulty">Easy</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- MEDIUM -->
+				<div class="progress-item">
+					<div class="medium-progress circle">
+						<div class="circle-text">
+							<span id="medium-level">0/0</span>
+							<p class="circle-difficulty">Medium</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- HARD -->
+				<div class="progress-item">
+					<div class="hard-progress circle">
+						<div class="circle-text">
+							<span id="hard-level">0/0</span>
+							<p class="circle-difficulty">Hard</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- CARDS BELOW CIRCLES -->
+			<div class="stats-card" style="display: none;">
+				<div class="card" id="total-submissions">Total Submissions: --</div>
+				<div class="card" id="easy-submissions">Easy Submissions: --</div>
+				<div class="card" id="medium-submissions">Medium Submissions: --</div>
+				<div class="card" id="hard-submissions">Hard Submissions: --</div>
+			</div>
+
+		</div>
+	</div>
+
+	<script src="file.js"></script>
+</body>
+</html>
