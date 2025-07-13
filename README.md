@@ -67,7 +67,7 @@ Welcome to **MetricBaaz** – a clean and minimal dashboard that lets you track 
 ```
 MetricBaaz/
 │
-├── file.html        # Main HTML file
+├── index.html        # Main HTML file
 ├── file.css         # Stylesheet
 ├── file.js          # JavaScript logic
 ├── README.md        # This file 💛
@@ -79,9 +79,7 @@ MetricBaaz/
 
 Pull requests are welcome! If you'd like to enhance the UI, add animations, or integrate more stats — go ahead 🚀
 
----
 
-## 🌐 Live Demo
 
 
 
